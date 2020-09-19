@@ -897,3 +897,21 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.19-18.55.02:886][950]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F43F78FA00), frame # 10950
 [2020.09.19-18.55.02:887][950]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
 [2020.09.19-18.55.02:920][951]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.09.19-18.55.51:025][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.09.19-18.55.51:054][298]LogSavePackage: Moving '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Saved/TopDownExampleMap97960CF548C2E98550570CA40AEE2E01.tmp' to '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2020.09.19-18.55.51:205][298]LogSavePackage: Moving '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Saved/TopDownExampleMap_BuiltDataD7D388D546F9A0219F3BAB880F2B5CDB.tmp' to '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2020.09.19-18.55.51:213][298]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.19-18.55.51:214][298]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2020.09.19-18.55.51:214][298]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2020.09.19-18.55.54:830][514]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.09.19-18.55.54:855][514]LogSavePackage: Moving '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Saved/TopDownExampleMap4FB22AB144B4138900657ABAA0695CD1.tmp' to '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2020.09.19-18.55.54:990][514]LogSavePackage: Moving '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Saved/TopDownExampleMap_BuiltData990932CC4467AA849621EA8D445F10E5.tmp' to '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2020.09.19-18.55.54:998][514]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.19-18.55.54:998][514]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2020.09.19-18.55.54:998][514]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2020.09.19-18.55.56:452][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.09.19-18.55.56:489][601]LogSavePackage: Moving '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Saved/lowpoly_obstacle02B1DA63E54BE7E430225D7C8FB0BEBC9C.tmp' to '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Content/ClydeContent/Assets/Meshes/lowpoly_obstacle02.uasset'
+[2020.09.19-18.55.56:510][601]LogSavePackage: Moving '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Saved/lowpoly_obstacle0385EAA97144B119F70CE2B084A011B1FD.tmp' to '../../../../../../Unreal Project/EAE4500_Occult/Project/Occult_Prototype/Content/ClydeContent/Assets/Meshes/lowpoly_obstacle03.uasset'
+[2020.09.19-18.55.56:521][601]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.19-18.55.56:521][601]LogContentValidation: Display: Validating StaticMesh /Game/ClydeContent/Assets/Meshes/lowpoly_obstacle02.lowpoly_obstacle02
+[2020.09.19-18.55.56:521][601]LogContentValidation: Display: Validating StaticMesh /Game/ClydeContent/Assets/Meshes/lowpoly_obstacle03.lowpoly_obstacle03
