@@ -3349,3 +3349,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.18-16.46.09:157][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.09.18-16.46.41:060][ 39]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ShengContent/Battery.Battery
 [2020.09.18-16.46.51:801][156]LogEditorViewport: Clicking on Actor (LMB): Battery_C (Battery2)
+[2020.09.18-16.55.52:804][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.09.18-16.55.52:807][317]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.042
+[2020.09.18-16.55.52:807][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2020.09.18-16.55.52:831][317]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2020.09.18-16.55.52:832][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2020.09.18-16.55.52:904][317]LogSavePackage: Moving '../../../../../firefox/EAE4500_Occult/Project/Occult_Prototype/Saved/TopDownCharacter_Auto7226FDF6E48BFEACAD76344B34A3C8F22.tmp' to '../../../../../firefox/EAE4500_Occult/Project/Occult_Prototype/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto7.uasset'
+[2020.09.18-16.55.52:905][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ShengContent/Battery] ([1] browsable assets)...
+[2020.09.18-16.55.52:917][317]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ShengContent/Battery.Battery]
+[2020.09.18-16.55.52:917][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/ShengContent/Battery]
+[2020.09.18-16.55.52:944][317]LogSavePackage: Moving '../../../../../firefox/EAE4500_Occult/Project/Occult_Prototype/Saved/Battery_Auto7DD11D88343D886B196CFF6B219982B39.tmp' to '../../../../../firefox/EAE4500_Occult/Project/Occult_Prototype/Saved/Autosaves/Game/ShengContent/Battery_Auto7.uasset'
+[2020.09.18-16.55.52:945][317]LogFileHelpers: Auto-saving content packages took 0.138
