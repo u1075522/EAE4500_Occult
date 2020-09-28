@@ -1,0 +1,1736 @@
+﻿Log file open, 09/23/20 23:30:24
+LogInit: Display: Running engine for game: Occult_Prototype
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.177963
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: NVIDIA GeForce RTX 2070 with Max-Q Design
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Engine.ini]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Engine.ini]
+[2020.09.24-05.30.24:383][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Engine.ini]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Engine.ini]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.24-05.30.24:383][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Engine.ini]
+[2020.09.24-05.30.24:383][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Engine.ini]
+[2020.09.24-05.30.24:420][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.24-05.30.24:420][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.24-05.30.24:421][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.24-05.30.24:421][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.24-05.30.24:421][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.24-05.30.24:421][  0]LogHAL: Display: Platform has ~ 16 GB [17073315840 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.24-05.30.24:421][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.24-05.30.24:422][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.24-05.30.24:422][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Scalability.ini]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.24-05.30.24:423][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Config/Windows/Engine.ini]
+[2020.09.24-05.30.24:423][  0]LogInit: Computer: BRAND-RUNEMACHI
+[2020.09.24-05.30.24:423][  0]LogInit: User: brand
+[2020.09.24-05.30.24:423][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.09.24-05.30.24:423][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.24-05.30.24:423][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.09.24-05.30.24:423][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.24-05.30.24:423][  0]LogMemory: Process Physical Memory: 115.48 MB used, 115.49 MB peak
+[2020.09.24-05.30.24:423][  0]LogMemory: Process Virtual Memory: 96.83 MB used, 96.83 MB peak
+[2020.09.24-05.30.24:423][  0]LogMemory: Physical Memory: 6715.94 MB used,  9566.45 MB free, 16282.38 MB total
+[2020.09.24-05.30.24:423][  0]LogMemory: Virtual Memory: 5166.59 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.09.24-05.30.24:429][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.24-05.30.24:475][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.24-05.30.24:477][  0]LogInit: Using OS detected language (en-US).
+[2020.09.24-05.30.24:477][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.24-05.30.24:482][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.24-05.30.24:646][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.24-05.30.24:718][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.24-05.30.24:718][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.24-05.30.24:850][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.24-05.30.24:850][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.24-05.30.24:850][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.24-05.30.24:850][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.24-05.30.24:947][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (Feature Level 11_0)
+[2020.09.24-05.30.24:947][  0]LogD3D11RHI:       8031/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.24-05.30.25:011][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.09.24-05.30.25:011][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.09.24-05.30.25:013][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.24-05.30.25:013][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.24-05.30.25:038][  0]LogD3D11RHI:    3. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.09.24-05.30.25:038][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.09.24-05.30.25:038][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.24-05.30.25:046][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.24-05.30.25:046][  0]LogD3D11RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.24-05.30.25:046][  0]LogWindows: EnumDisplayDevices:
+[2020.09.24-05.30.25:046][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.09.24-05.30.25:046][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.09.24-05.30.25:046][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.09.24-05.30.25:046][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:1 D:1)
+[2020.09.24-05.30.25:047][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2020.09.24-05.30.25:047][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2020.09.24-05.30.25:047][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2020.09.24-05.30.25:047][  0]LogWindows:    7. 'DisplayLink USB Device' (P:0 D:0)
+[2020.09.24-05.30.25:048][  0]LogWindows:    8. 'DisplayLink USB Device' (P:0 D:0)
+[2020.09.24-05.30.25:048][  0]LogWindows:    9. 'DisplayLink USB Device' (P:0 D:0)
+[2020.09.24-05.30.25:048][  0]LogWindows:    10. 'DisplayLink USB Device' (P:0 D:0)
+[2020.09.24-05.30.25:048][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.09.24-05.30.25:048][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 with Max-Q Design
+[2020.09.24-05.30.25:048][  0]LogD3D11RHI:   Driver Version: 456.38 (internal:27.21.14.5638, unified:456.38)
+[2020.09.24-05.30.25:048][  0]LogD3D11RHI:      Driver Date: 9-14-2020
+[2020.09.24-05.30.25:048][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2020.09.24-05.30.25:112][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.24-05.30.25:115][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.24-05.30.25:115][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.24-05.30.25:115][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.24-05.30.25:151][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.24-05.30.25:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.24-05.30.25:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.24-05.30.25:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.24-05.30.25:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.24-05.30.25:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.24-05.30.25:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.24-05.30.25:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.24-05.30.25:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.24-05.30.25:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.24-05.30.25:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.24-05.30.25:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.24-05.30.25:473][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.24-05.30.25:473][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.24-05.30.25:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.24-05.30.25:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.24-05.30.25:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.24-05.30.25:508][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.24-05.30.25:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.24-05.30.25:524][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.24-05.30.25:533][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.24-05.30.25:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.24-05.30.25:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.24-05.30.25:571][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.24-05.30.25:571][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.24-05.30.25:580][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.24-05.30.25:589][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.24-05.30.25:597][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.24-05.30.25:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.24-05.30.25:605][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.24-05.30.25:612][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.24-05.30.25:660][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Intermediate/Shaders/WorkingDirectory/8500/).
+[2020.09.24-05.30.25:660][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/brand/AppData/Local/Temp/UnrealShaderWorkingDir/8EC6E1B24FCE11DD9B3EBD97038230BA/'.
+[2020.09.24-05.30.25:660][  0]LogXGEController: Cleaning working directory: C:/Users/brand/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.24-05.30.25:660][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.24-05.30.25:660][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.24-05.30.25:660][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.24-05.30.26:378][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.24-05.30.26:427][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/brand/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.24-05.30.26:427][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brand/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.24-05.30.26:427][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.24-05.30.26:427][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.24-05.30.26:427][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.24-05.30.26:427][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.24-05.30.26:437][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.24-05.30.26:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.24-05.30.26:437][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.24-05.30.26:438][  0]LogDerivedDataCache: Using Local data cache path C:/Users/brand/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.24-05.30.26:438][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.24-05.30.26:438][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.24-05.30.26:487][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.24-05.30.26:487][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.24-05.30.26:512][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2020.09.24-05.30.26:722][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.24-05.30.26:866][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.24-05.30.26:866][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.24-05.30.26:866][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.24-05.30.26:866][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.24-05.30.26:866][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.24-05.30.26:914][  0]LogNetVersion: Occult_Prototype 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3451287282)
+[2020.09.24-05.30.27:319][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000013B95751B80), frame # 0
+[2020.09.24-05.30.27:319][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013B9569EAC0), frame # 0
+[2020.09.24-05.30.27:320][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013B956F9E00), frame # 0
+[2020.09.24-05.30.27:670][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.343364 seconds
+[2020.09.24-05.30.27:674][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.24-05.30.27:674][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.24-05.30.27:675][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.24-05.30.27:977][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.24-05.30.27:980][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.24-05.30.28:056][  0]SourceControl: Source control is disabled
+[2020.09.24-05.30.28:415][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.09.24-05.30.28:415][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.09.24-05.30.28:620][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.24-05.30.28:637][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.24-05.30.28:637][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.24-05.30.28:680][  0]LogOcInput: OculusInput pre-init called
+[2020.09.24-05.30.28:690][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.24-05.30.28:690][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.24-05.30.28:747][  0]LogEngine: Initializing Engine...
+[2020.09.24-05.30.28:748][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.24-05.30.28:748][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.24-05.30.28:749][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.24-05.30.28:869][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.24-05.30.28:875][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.24-05.30.28:876][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013B9A9F7C00), frame # 0
+[2020.09.24-05.30.28:876][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013B9AA47B00), frame # 0
+[2020.09.24-05.30.28:895][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.24-05.30.28:895][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.24-05.30.28:895][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.24-05.30.28:895][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.24-05.30.28:895][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.24-05.30.28:895][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.24-05.30.28:895][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.24-05.30.28:895][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.24-05.30.28:895][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.24-05.30.28:896][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.24-05.30.28:926][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.24-05.30.28:926][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.24-05.30.28:961][  0]LogAudioMixer: Display: Using Audio Device XB271HU (NVIDIA High Definition Audio)
+[2020.09.24-05.30.28:963][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.24-05.30.28:965][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.24-05.30.28:965][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.24-05.30.28:966][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.24-05.30.28:967][  0]LogInit: FAudioDevice initialized.
+[2020.09.24-05.30.28:967][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.24-05.30.29:008][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/brand/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.24-05.30.29:011][  0]LogInit: Texture streaming: Enabled
+[2020.09.24-05.30.29:025][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.24-05.30.29:025][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.24-05.30.29:027][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.24-05.30.29:154][  0]LogInit: Transaction tracking system initialized
+[2020.09.24-05.30.29:170][  0]BlueprintLog: New page: Editor Load
+[2020.09.24-05.30.29:232][  0]LocalizationService: Localization service is disabled
+[2020.09.24-05.30.29:301][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.09.24-05.30.29:302][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.09.24-05.30.29:378][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.24-05.30.29:378][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.24-05.30.29:493][  0]LogFileCache: Scanning file cache for directory 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/' took 0.01s
+[2020.09.24-05.30.29:701][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.183
+[2020.09.24-05.30.29:702][  0]Cmd: MAP LOAD FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.24-05.30.29:702][  0]LightingResults: New page: Lighting Build
+[2020.09.24-05.30.29:702][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-05.30.29:702][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.24-05.30.29:703][  0]MapCheck: New page: Map Check
+[2020.09.24-05.30.29:703][  0]LightingResults: New page: Lighting Build
+[2020.09.24-05.30.29:713][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013B9A9F7C00), frame # 0
+[2020.09.24-05.30.29:713][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013B9AA47B00), frame # 0
+[2020.09.24-05.30.29:714][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.09.24-05.30.31:802][  0]LogBlueprint: Warning: [Compiler TopDownController] InputAction Event references unknown Action 'SetDestination' for  InputAction SetDestination
+[2020.09.24-05.30.33:247][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.09.24-05.30.33:247][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013B8F425400), frame # 0
+[2020.09.24-05.30.33:247][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013B8F42FB00), frame # 0
+[2020.09.24-05.30.33:277][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.24-05.30.33:279][  0]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2020.09.24-05.30.33:294][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.09.24-05.30.33:294][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.24-05.30.33:294][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
+[2020.09.24-05.30.33:294][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 3.593
+[2020.09.24-05.30.33:295][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.777
+[2020.09.24-05.30.33:815][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.24-05.30.33:824][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.24-05.30.33:834][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.24-05.30.33:843][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.24-05.30.33:849][  0]LogCollectionManager: Loaded 0 collections in 0.000763 seconds
+[2020.09.24-05.30.33:862][  0]LogFileCache: Scanning file cache for directory 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/Collections/' took 0.00s
+[2020.09.24-05.30.33:862][  0]LogFileCache: Scanning file cache for directory 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/Developers/brand/Collections/' took 0.00s
+[2020.09.24-05.30.33:862][  0]LogFileCache: Scanning file cache for directory 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/Collections/' took 0.00s
+[2020.09.24-05.30.33:862][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3427 classes and 821 folders.
+[2020.09.24-05.30.33:867][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.24-05.30.33:921][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.24-05.30.33:922][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.09.24-05.30.33:961][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.24-05.30.33:962][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.24-05.30.33:966][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.24-05.30.34:072][  0]LogRenderer: Reallocating scene render targets to support 1632x968 Format 10 NumSamples 1 (Frame:1).
+[2020.09.24-05.30.34:191][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.24-05.30.34:191][  0]LogLoad: (Engine Initialization) Total time: 11.67 seconds
+[2020.09.24-05.30.34:192][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.24-05.30.34:390][  0]LogAssetRegistry: Asset discovery search completed in 7.8791 seconds
+[2020.09.24-05.30.34:396][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.09.24-05.30.34:399][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.24-05.30.35:219][ 32]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.24-05.30.35:234][ 32]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/NickContent/Character/BP/TopDownCharacter_Nick.TopDownCharacter_Nick
+[2020.09.24-05.30.35:449][ 32]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.09.24-05.30.36:306][ 32]LogSlate: Took 0.000908 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.24-05.30.36:552][ 33]LogSlate: Took 0.000801 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.24-05.30.40:045][229]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-05.30.40:045][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.24-05.30.49:117][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/AI_Enemy.AI_Enemy_C' ref from Metadata '/Game/AI/Enemy/AI_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:117][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/AI_Enemy.AI_Enemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/AI/Enemy/AI_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:117][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/AI_Enemy.AI_Enemy:EventGraph.K2Node_Event_0' ref from Metadata '/Game/AI/Enemy/AI_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:117][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/AI_Enemy.SKEL_AI_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/AI/Enemy/AI_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:117][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/AI_Enemy.SKEL_AI_Enemy_C:BndEvt__AIPerception_K2Node_ComponentBoundEvent_0_ActorPerceptionUpdatedDelegate__DelegateSignature' ref from Metadata '/Game/AI/Enemy/AI_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:117][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/AI_Enemy.SKEL_AI_Enemy_C:UserConstructionScript' ref from Metadata '/Game/AI/Enemy/AI_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:117][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/AI_Enemy.SKEL_AI_Enemy_C' ref from Metadata '/Game/AI/Enemy/AI_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:117][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/AI_Enemy.AI_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/AI/Enemy/AI_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:132][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/BP_Enemy.BP_Enemy_C' ref from Metadata '/Game/AI/Enemy/BP_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:132][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/BP_Enemy.BP_Enemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/AI/Enemy/BP_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:132][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_0' ref from Metadata '/Game/AI/Enemy/BP_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:132][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_1' ref from Metadata '/Game/AI/Enemy/BP_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:132][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_2' ref from Metadata '/Game/AI/Enemy/BP_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:132][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/BP_Enemy.SKEL_BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/AI/Enemy/BP_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:132][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/BP_Enemy.SKEL_BP_Enemy_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/AI/Enemy/BP_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:132][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/BP_Enemy.SKEL_BP_Enemy_C:ReceiveTick' ref from Metadata '/Game/AI/Enemy/BP_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:132][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/BP_Enemy.SKEL_BP_Enemy_C:UserConstructionScript' ref from Metadata '/Game/AI/Enemy/BP_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:132][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/BP_Enemy.SKEL_BP_Enemy_C' ref from Metadata '/Game/AI/Enemy/BP_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:138][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/BT_Enemy.BT_Enemy:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/AI/Enemy/BT_Enemy.PackageMetaData'
+[2020.09.24-05.30.49:144][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/ChasePlayer.ChasePlayer_C' ref from Metadata '/Game/AI/Enemy/ChasePlayer.PackageMetaData'
+[2020.09.24-05.30.49:145][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/ChasePlayer.SKEL_ChasePlayer_C:ReceiveExecuteAI' ref from Metadata '/Game/AI/Enemy/ChasePlayer.PackageMetaData'
+[2020.09.24-05.30.49:145][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/ChasePlayer.SKEL_ChasePlayer_C' ref from Metadata '/Game/AI/Enemy/ChasePlayer.PackageMetaData'
+[2020.09.24-05.30.49:145][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/ChasePlayer.ChasePlayer_C:ReceiveExecuteAI' ref from Metadata '/Game/AI/Enemy/ChasePlayer.PackageMetaData'
+[2020.09.24-05.30.49:151][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/FindPlayerLocation.FindPlayerLocation_C' ref from Metadata '/Game/AI/Enemy/FindPlayerLocation.PackageMetaData'
+[2020.09.24-05.30.49:151][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/FindPlayerLocation.SKEL_FindPlayerLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/AI/Enemy/FindPlayerLocation.PackageMetaData'
+[2020.09.24-05.30.49:151][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/FindPlayerLocation.SKEL_FindPlayerLocation_C' ref from Metadata '/Game/AI/Enemy/FindPlayerLocation.PackageMetaData'
+[2020.09.24-05.30.49:151][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/FindPlayerLocation.FindPlayerLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/AI/Enemy/FindPlayerLocation.PackageMetaData'
+[2020.09.24-05.30.49:157][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/FindRandomLocation.FindRandomLocation_C' ref from Metadata '/Game/AI/Enemy/FindRandomLocation.PackageMetaData'
+[2020.09.24-05.30.49:157][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/FindRandomLocation.SKEL_FindRandomLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/AI/Enemy/FindRandomLocation.PackageMetaData'
+[2020.09.24-05.30.49:157][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/FindRandomLocation.SKEL_FindRandomLocation_C' ref from Metadata '/Game/AI/Enemy/FindRandomLocation.PackageMetaData'
+[2020.09.24-05.30.49:157][691]LogMetaData: Removing '/Game/BrandContent/AI/Enemy/FindRandomLocation.FindRandomLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/AI/Enemy/FindRandomLocation.PackageMetaData'
+[2020.09.24-05.30.49:196][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrandContent/AI/Enemy/AI_Enemy" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/AI_Enemy.uasset" SILENT=true
+[2020.09.24-05.30.49:216][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/AI_EnemyA4580C82432B988B9DFEBD93044B1540.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/AI_Enemy.uasset'
+[2020.09.24-05.30.49:421][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Enemy/AI_Enemy" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/AI_Enemy.uasset" SILENT=true
+[2020.09.24-05.30.49:448][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/AI_Enemy8638C56C433E69450AF26989B5CDAAF5.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/AI_Enemy.uasset'
+[2020.09.24-05.30.49:470][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrandContent/AI/Enemy/BB_Enemy" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/BB_Enemy.uasset" SILENT=true
+[2020.09.24-05.30.49:483][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/BB_Enemy3C4244C94BB5984EE5238A98595799A3.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/BB_Enemy.uasset'
+[2020.09.24-05.30.49:633][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Enemy/BB_Enemy" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/BB_Enemy.uasset" SILENT=true
+[2020.09.24-05.30.49:645][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/BB_EnemyD83F6C5346BC8F45F2BCA4B5A5A0AD18.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/BB_Enemy.uasset'
+[2020.09.24-05.30.49:696][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrandContent/AI/Enemy/BP_Enemy" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/BP_Enemy.uasset" SILENT=true
+[2020.09.24-05.30.49:724][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/BP_Enemy91CF1A4F4C05B47C19C510A7B269C169.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/BP_Enemy.uasset'
+[2020.09.24-05.30.49:862][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Enemy/BP_Enemy" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/BP_Enemy.uasset" SILENT=true
+[2020.09.24-05.30.49:894][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/BP_EnemyBB4E4ACD4C49646A7BCA688021F8F06C.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/BP_Enemy.uasset'
+[2020.09.24-05.30.49:897][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrandContent/AI/Enemy/BT_Enemy" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/BT_Enemy.uasset" SILENT=true
+[2020.09.24-05.30.49:907][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/BT_Enemy24A4845849D8D8AB1ACEF09A4935E3F5.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/BT_Enemy.uasset'
+[2020.09.24-05.30.50:047][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Enemy/BT_Enemy" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/BT_Enemy.uasset" SILENT=true
+[2020.09.24-05.30.50:069][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/BT_EnemyA6D37ED343ED9B0413E3E78FAE4D5B33.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/BT_Enemy.uasset'
+[2020.09.24-05.30.50:102][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrandContent/AI/Enemy/ChasePlayer" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/ChasePlayer.uasset" SILENT=true
+[2020.09.24-05.30.50:115][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/ChasePlayerF59C4EBC4BB8F3AC1D1A1188691FB0F8.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/ChasePlayer.uasset'
+[2020.09.24-05.30.50:260][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Enemy/ChasePlayer" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/ChasePlayer.uasset" SILENT=true
+[2020.09.24-05.30.50:282][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/ChasePlayer43BE2E304EB6B14F9468549746861285.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/ChasePlayer.uasset'
+[2020.09.24-05.30.50:301][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrandContent/AI/Enemy/FindPlayerLocation" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/FindPlayerLocation.uasset" SILENT=true
+[2020.09.24-05.30.50:315][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/FindPlayerLocation3CF86A1041FD8460C518CEBF260A6424.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/FindPlayerLocation.uasset'
+[2020.09.24-05.30.50:491][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Enemy/FindPlayerLocation" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/FindPlayerLocation.uasset" SILENT=true
+[2020.09.24-05.30.50:506][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/FindPlayerLocation6BA9A43449DA4F467CC48CAC656DC4A3.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/FindPlayerLocation.uasset'
+[2020.09.24-05.30.50:509][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrandContent/AI/Enemy/FindRandomLocation" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/FindRandomLocation.uasset" SILENT=true
+[2020.09.24-05.30.50:522][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/FindRandomLocation3396AC26498FBF9653CCDA8457813E4C.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/FindRandomLocation.uasset'
+[2020.09.24-05.30.50:648][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Enemy/FindRandomLocation" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/FindRandomLocation.uasset" SILENT=true
+[2020.09.24-05.30.50:668][691]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/FindRandomLocation954AA5D54A5413DCAB41EB960D1B597B.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/AI/Enemy/FindRandomLocation.uasset'
+[2020.09.24-05.30.52:285][691]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating Blueprint /Game/BrandContent/AI/Enemy/AI_Enemy.AI_Enemy
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/AI_Enemy.AI_Enemy_C
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/AI_Enemy.Default__AI_Enemy_C
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/AI_Enemy.AI_Enemy
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating BlackboardData /Game/BrandContent/AI/Enemy/BB_Enemy.BB_Enemy
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/BB_Enemy.BB_Enemy
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating Blueprint /Game/BrandContent/AI/Enemy/BP_Enemy.BP_Enemy
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/BP_Enemy.BP_Enemy_C
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/BP_Enemy.Default__BP_Enemy_C
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/BP_Enemy.BP_Enemy
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating BehaviorTree /Game/BrandContent/AI/Enemy/BT_Enemy.BT_Enemy
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/BT_Enemy.BT_Enemy
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating Blueprint /Game/BrandContent/AI/Enemy/ChasePlayer.ChasePlayer
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/ChasePlayer.ChasePlayer_C
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/ChasePlayer.Default__ChasePlayer_C
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/ChasePlayer.ChasePlayer
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating Blueprint /Game/BrandContent/AI/Enemy/FindPlayerLocation.FindPlayerLocation
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/FindPlayerLocation.FindPlayerLocation_C
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/FindPlayerLocation.Default__FindPlayerLocation_C
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/FindPlayerLocation.FindPlayerLocation
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating Blueprint /Game/BrandContent/AI/Enemy/FindRandomLocation.FindRandomLocation
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/FindRandomLocation.FindRandomLocation_C
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/FindRandomLocation.Default__FindRandomLocation_C
+[2020.09.24-05.30.52:285][691]LogContentValidation: Display: Validating ObjectRedirector /Game/AI/Enemy/FindRandomLocation.FindRandomLocation
+[2020.09.24-05.31.02:155][273]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2020.09.24-05.31.07:861][273]LogSlate: Window 'Delete Assets' being destroyed
+[2020.09.24-05.31.12:462][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.09.24-05.31.12:668][542]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.24-05.31.15:708][542]LogSlate: Window 'Delete Assets' being destroyed
+[2020.09.24-05.31.20:138][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.09.24-05.31.24:324][802]LogSlate: Window 'Delete Assets' being destroyed
+[2020.09.24-05.31.24:539][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.09.24-05.31.24:556][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.09.24-05.31.24:573][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.09.24-05.31.24:590][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.09.24-05.31.24:607][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.09.24-05.31.24:624][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.09.24-05.31.24:641][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.09.24-05.31.24:665][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.09.24-05.31.24:681][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2020.09.24-05.31.25:281][802]SourceControl: Error: Updated 7 paths from the index
+[2020.09.24-05.31.25:416][802]SourceControl: Error: warning: could not open directory 'Project/Occult_Prototype/Content/AI/': No such file or directory
+[2020.09.24-05.31.25:416][802]SourceControl: rm 'Project/Occult_Prototype/Content/AI/Enemy/AI_Enemy.uasset'
+[2020.09.24-05.31.25:416][802]SourceControl: rm 'Project/Occult_Prototype/Content/AI/Enemy/BB_Enemy.uasset'
+[2020.09.24-05.31.25:416][802]SourceControl: rm 'Project/Occult_Prototype/Content/AI/Enemy/BP_Enemy.uasset'
+[2020.09.24-05.31.25:416][802]SourceControl: rm 'Project/Occult_Prototype/Content/AI/Enemy/BT_Enemy.uasset'
+[2020.09.24-05.31.25:416][802]SourceControl: rm 'Project/Occult_Prototype/Content/AI/Enemy/ChasePlayer.uasset'
+[2020.09.24-05.31.25:416][802]SourceControl: rm 'Project/Occult_Prototype/Content/AI/Enemy/FindPlayerLocation.uasset'
+[2020.09.24-05.31.25:416][802]SourceControl: rm 'Project/Occult_Prototype/Content/AI/Enemy/FindRandomLocation.uasset'
+[2020.09.24-05.32.02:914][ 97]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 E:/_Occult_/EAE4500_Occult/Sounds/StaticAmbience/5-Dark Fantasy Studio- The crypt.wav)
+[2020.09.24-05.32.02:983][ 97]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave 5-Dark_Fantasy_Studio-_The_crypt...
+[2020.09.24-05.32.02:988][ 97]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/BrandContent/Audio/5-Dark_Fantasy_Studio-_The_crypt.5-Dark_Fantasy_Studio-_The_crypt will be modified from 40 to 40.
+[2020.09.24-05.32.04:860][ 97]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 21533184 while cooking SoundWave /Game/BrandContent/Audio/5-Dark_Fantasy_Studio-_The_crypt.5-Dark_Fantasy_Studio-_The_crypt.
+[2020.09.24-05.32.51:361][258]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/5-Dark_Fantasy_Studio-_The_crypt4383B1894A93BC2BDFC4DD94D33DB514.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/Audio/Ambience/5-Dark_Fantasy_Studio-_The_crypt.uasset'
+[2020.09.24-05.32.52:846][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.09.24-05.32.52:875][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.09.24-05.32.52:892][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2020.09.24-05.32.52:981][258]AssetCheck: New page: Asset Save: 5-Dark_Fantasy_Studio-_The_crypt
+[2020.09.24-05.32.52:981][258]LogContentValidation: Display: Validating SoundWave /Game/BrandContent/Audio/Ambience/5-Dark_Fantasy_Studio-_The_crypt.5-Dark_Fantasy_Studio-_The_crypt
+[2020.09.24-05.34.04:881][634]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/5-Dark_Fantasy_Studio-_The_cryptD599563E4101FFD788D4E0897D1AC37A.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/Audio/Ambience/Loops/5-Dark_Fantasy_Studio-_The_crypt.uasset'
+[2020.09.24-05.34.06:297][634]AssetCheck: New page: Asset Save: 5-Dark_Fantasy_Studio-_The_crypt
+[2020.09.24-05.34.06:297][634]LogContentValidation: Display: Validating SoundWave /Game/BrandContent/Audio/Ambience/Loops/5-Dark_Fantasy_Studio-_The_crypt.5-Dark_Fantasy_Studio-_The_crypt
+[2020.09.24-05.35.15:904][736]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/as_ab_loop_Thecrypt54391E7F475DAEEAE0F177B0EFFCBEA1.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/Audio/Ambience/Loops/as_ab_loop_Thecrypt.uasset'
+[2020.09.24-05.35.17:318][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.09.24-05.35.17:347][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.09.24-05.35.17:364][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2020.09.24-05.35.17:474][736]SourceControl: rm 'Project/Occult_Prototype/Content/BrandContent/Audio/Ambience/Loops/5-Dark_Fantasy_Studio-_The_crypt.uasset'
+[2020.09.24-05.35.17:567][736]AssetCheck: New page: Asset Save: as_ab_loop_Thecrypt
+[2020.09.24-05.35.17:567][736]LogContentValidation: Display: Validating SoundWave /Game/BrandContent/Audio/Ambience/Loops/as_ab_loop_Thecrypt.as_ab_loop_Thecrypt
+[2020.09.24-05.35.26:777][282]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/BrandContent/Audio/Ambience/Loops/as_ab_loop_Thecrypt.as_ab_loop_Thecrypt
+[2020.09.24-05.35.48:181][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.09.24-05.35.48:395][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrandContent/AI/Enemy/AI_Enemy" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/AI_Enemy.uasset" SILENT=true
+[2020.09.24-05.35.48:411][554]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/AI_Enemy0FF5AA814B2E47FD213CAAA45B312FDC.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/AI_Enemy.uasset'
+[2020.09.24-05.35.48:429][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrandContent/AI/Enemy/BP_Enemy" FILE="E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/BP_Enemy.uasset" SILENT=true
+[2020.09.24-05.35.48:462][554]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/BP_Enemy988C077A45197CBCD0FA018ACF50B400.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/AI/Enemy/BP_Enemy.uasset'
+[2020.09.24-05.35.49:087][554]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/as_ab_loop_Thecrypt17E5072C47DA5E252C2FE2A4880F32C5.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/BrandContent/Audio/Ambience/Loops/as_ab_loop_Thecrypt.uasset'
+[2020.09.24-05.35.49:108][554]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.24-05.35.49:108][554]LogContentValidation: Display: Validating Blueprint /Game/BrandContent/AI/Enemy/AI_Enemy.AI_Enemy
+[2020.09.24-05.35.49:108][554]LogContentValidation: Display: Validating Blueprint /Game/BrandContent/AI/Enemy/BP_Enemy.BP_Enemy
+[2020.09.24-05.35.49:108][554]LogContentValidation: Display: Validating SoundWave /Game/BrandContent/Audio/Ambience/Loops/as_ab_loop_Thecrypt.as_ab_loop_Thecrypt
+[2020.09.24-05.35.51:210][675]LogSlate: Window 'as_ab_loop_Thecrypt' being destroyed
+[2020.09.24-05.35.51:214][675]LogSlate: Window 'as_ab_loop_Thecrypt' being destroyed
+[2020.09.24-05.37.32:897][288]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-05.37.32:915][288]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.09.24-05.37.32:916][288]LogPlayLevel: [PlayLevel] Compiling AI_Enemy before play...
+[2020.09.24-05.37.32:941][288]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.09.24-05.37.32:944][288]LogPlayLevel: PlayLevel: Blueprint regeneration took 28 ms (1 blueprints)
+[2020.09.24-05.37.32:944][288]PIE: New page: PIE session: TopDownExampleMap (Sep 23, 2020, 5:37:32 PM)
+[2020.09.24-05.37.32:945][288]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.24-05.37.32:946][288]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.24-05.37.32:946][288]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.09.24-05.37.32:960][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013559s)
+[2020.09.24-05.37.32:961][288]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.09.24-05.37.32:961][288]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013C2593FE00), frame # 14288
+[2020.09.24-05.37.32:961][288]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013C258C6200), frame # 14288
+[2020.09.24-05.37.32:962][288]LogPlayLevel: PIE: World Init took: (0.001807s)
+[2020.09.24-05.37.32:962][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.015582s)
+[2020.09.24-05.37.32:983][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.09.24-05.37.32:984][288]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.24-05.37.32:985][288]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.24-05.37.32:985][288]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.24-05.37.32:985][288]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.24-05.37.32:985][288]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.24-05.37.32:985][288]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.24-05.37.32:985][288]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.24-05.37.32:985][288]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.24-05.37.32:985][288]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.24-05.37.32:985][288]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.24-05.37.32:990][288]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.24-05.37.32:990][288]LogAudioMixer: Display: 1: FrontRight
+[2020.09.24-05.37.33:006][288]LogAudioMixer: Display: Using Audio Device XB271HU (NVIDIA High Definition Audio)
+[2020.09.24-05.37.33:006][288]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.24-05.37.33:006][288]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.24-05.37.33:006][288]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.24-05.37.33:006][288]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.24-05.37.33:023][288]LogInit: FAudioDevice initialized.
+[2020.09.24-05.37.33:029][288]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.09.24-05.37.33:035][288]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.09.23-23.37.33
+[2020.09.24-05.37.33:036][288]LogWorld: Bringing up level for play took: 0.004579
+[2020.09.24-05.37.33:036][288]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.09.24-05.37.33:039][288]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.09.24-05.37.33:041][288]PIE: Server logged in
+[2020.09.24-05.37.33:042][288]PIE: Play in editor total start time 0.126 seconds.
+[2020.09.24-05.37.33:900][315]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 99
+[2020.09.24-05.37.34:900][375]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 98
+[2020.09.24-05.37.35:900][435]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 97
+[2020.09.24-05.37.36:900][495]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 96
+[2020.09.24-05.37.37:900][555]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 95
+[2020.09.24-05.37.38:900][615]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.37.39:900][675]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 93
+[2020.09.24-05.37.41:800][789]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 99
+[2020.09.24-05.37.41:800][789]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.37.42:800][849]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 98
+[2020.09.24-05.37.42:800][849]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 95
+[2020.09.24-05.37.44:117][928]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.37.45:116][988]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 93
+[2020.09.24-05.37.46:117][ 48]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 92
+[2020.09.24-05.37.47:952][158]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 97
+[2020.09.24-05.37.47:952][158]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 93
+[2020.09.24-05.37.48:951][218]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 96
+[2020.09.24-05.37.48:951][218]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.37.49:950][278]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 95
+[2020.09.24-05.37.49:950][278]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 95
+[2020.09.24-05.37.50:951][338]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.37.50:951][338]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 96
+[2020.09.24-05.37.51:951][398]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 93
+[2020.09.24-05.37.51:951][398]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 97
+[2020.09.24-05.37.52:950][458]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 92
+[2020.09.24-05.37.52:950][458]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 98
+[2020.09.24-05.37.53:951][518]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 91
+[2020.09.24-05.37.53:951][518]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 99
+[2020.09.24-05.37.54:951][578]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 90
+[2020.09.24-05.37.54:951][578]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 100
+[2020.09.24-05.37.55:950][638]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 89
+[2020.09.24-05.37.56:951][698]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 88
+[2020.09.24-05.37.57:951][758]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 87
+[2020.09.24-05.37.58:950][818]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 86
+[2020.09.24-05.37.59:951][878]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 85
+[2020.09.24-05.38.00:951][938]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 84
+[2020.09.24-05.38.01:950][998]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 83
+[2020.09.24-05.38.02:951][ 58]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 82
+[2020.09.24-05.38.03:950][118]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 81
+[2020.09.24-05.38.04:951][178]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 80
+[2020.09.24-05.38.05:951][238]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 79
+[2020.09.24-05.38.06:951][298]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 78
+[2020.09.24-05.38.07:950][358]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 77
+[2020.09.24-05.38.08:950][418]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 76
+[2020.09.24-05.38.09:951][478]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 75
+[2020.09.24-05.38.10:950][538]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 74
+[2020.09.24-05.38.11:950][598]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 73
+[2020.09.24-05.38.12:951][658]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 72
+[2020.09.24-05.38.13:951][718]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 71
+[2020.09.24-05.38.14:951][778]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 70
+[2020.09.24-05.38.15:950][838]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 69
+[2020.09.24-05.38.17:484][930]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 99
+[2020.09.24-05.38.18:484][990]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 98
+[2020.09.24-05.38.19:484][ 50]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 97
+[2020.09.24-05.38.20:485][110]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 96
+[2020.09.24-05.38.21:485][170]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 95
+[2020.09.24-05.38.22:485][230]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.38.23:485][290]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 93
+[2020.09.24-05.38.24:485][350]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 92
+[2020.09.24-05.38.27:135][509]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 91
+[2020.09.24-05.38.28:135][569]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 90
+[2020.09.24-05.38.29:134][629]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 89
+[2020.09.24-05.38.30:134][689]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 88
+[2020.09.24-05.38.31:134][749]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 87
+[2020.09.24-05.38.32:135][809]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 86
+[2020.09.24-05.38.33:135][869]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 85
+[2020.09.24-05.38.34:151][927]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 84
+[2020.09.24-05.38.35:135][986]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 83
+[2020.09.24-05.38.36:135][ 46]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 82
+[2020.09.24-05.38.37:134][106]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 81
+[2020.09.24-05.38.38:135][166]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 80
+[2020.09.24-05.38.39:135][226]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 79
+[2020.09.24-05.38.40:135][286]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 78
+[2020.09.24-05.38.41:135][346]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 77
+[2020.09.24-05.38.42:135][406]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 76
+[2020.09.24-05.38.43:785][505]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 77
+[2020.09.24-05.38.43:785][505]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 68
+[2020.09.24-05.38.44:785][565]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 78
+[2020.09.24-05.38.44:785][565]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 67
+[2020.09.24-05.38.46:734][682]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 77
+[2020.09.24-05.38.47:735][742]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 76
+[2020.09.24-05.38.48:736][802]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 75
+[2020.09.24-05.38.49:735][862]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 74
+[2020.09.24-05.38.50:735][922]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 73
+[2020.09.24-05.38.51:735][982]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 72
+[2020.09.24-05.38.52:735][ 42]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 71
+[2020.09.24-05.38.53:735][102]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 70
+[2020.09.24-05.38.54:735][162]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 69
+[2020.09.24-05.38.55:736][222]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 68
+[2020.09.24-05.38.56:735][282]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 67
+[2020.09.24-05.38.57:736][342]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 66
+[2020.09.24-05.38.58:735][402]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 65
+[2020.09.24-05.38.59:737][462]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 64
+[2020.09.24-05.39.00:735][522]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 63
+[2020.09.24-05.39.01:735][582]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 62
+[2020.09.24-05.39.02:736][642]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 61
+[2020.09.24-05.39.03:736][702]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 60
+[2020.09.24-05.39.04:735][762]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 59
+[2020.09.24-05.39.05:736][822]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 58
+[2020.09.24-05.39.06:736][882]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 57
+[2020.09.24-05.39.07:735][942]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 56
+[2020.09.24-05.39.08:736][  2]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 55
+[2020.09.24-05.39.09:735][ 62]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 54
+[2020.09.24-05.39.10:736][122]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 53
+[2020.09.24-05.39.11:736][182]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 52
+[2020.09.24-05.39.12:738][242]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 51
+[2020.09.24-05.39.13:736][302]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 50
+[2020.09.24-05.39.14:735][362]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 49
+[2020.09.24-05.39.15:736][422]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 48
+[2020.09.24-05.39.16:736][482]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 47
+[2020.09.24-05.39.17:736][542]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 46
+[2020.09.24-05.39.18:736][602]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 45
+[2020.09.24-05.39.19:737][662]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 44
+[2020.09.24-05.39.20:739][722]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 43
+[2020.09.24-05.39.21:736][782]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 42
+[2020.09.24-05.39.22:737][842]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 41
+[2020.09.24-05.39.23:736][902]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 40
+[2020.09.24-05.39.25:187][989]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 41
+[2020.09.24-05.39.25:187][989]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 66
+[2020.09.24-05.39.26:187][ 49]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 42
+[2020.09.24-05.39.26:187][ 49]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 65
+[2020.09.24-05.39.27:386][121]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 41
+[2020.09.24-05.39.28:386][181]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 40
+[2020.09.24-05.39.29:387][241]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 39
+[2020.09.24-05.39.30:387][301]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 38
+[2020.09.24-05.39.31:387][361]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 37
+[2020.09.24-05.39.32:387][421]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 36
+[2020.09.24-05.39.33:387][481]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 35
+[2020.09.24-05.39.34:387][541]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 34
+[2020.09.24-05.39.35:402][600]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 33
+[2020.09.24-05.39.36:402][660]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 32
+[2020.09.24-05.39.37:402][720]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 31
+[2020.09.24-05.39.38:404][780]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 30
+[2020.09.24-05.39.39:018][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.24-05.39.39:018][815]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.09.24-05.39.39:018][815]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-05.39.39:019][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.24-05.39.39:025][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.24-05.39.39:028][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.24-05.39.39:043][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.24-05.39.39:063][815]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013C258C6200), frame # 21815
+[2020.09.24-05.39.39:063][815]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013C2593FE00), frame # 21815
+[2020.09.24-05.39.39:068][815]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2020.09.24-05.39.39:097][816]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.09.24-05.39.54:134][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.09.24-05.39.54:234][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2020.09.24-05.39.54:457][619]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/TopDownExampleMapDEAE6D7744508C84AECD049FA362E2C9.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2020.09.24-05.39.54:498][619]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.281
+[2020.09.24-05.39.55:049][619]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/TopDownExampleMap_BuiltDataAFD63B8F44776E22EDCC48B3FAF91A40.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2020.09.24-05.39.55:133][619]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.24-05.39.55:134][619]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2020.09.24-05.39.55:134][619]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2020.09.24-05.48.39:951][646]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (as_ab_loop_Thecrypt)
+[2020.09.24-05.49.14:237][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.09.24-05.49.14:472][693]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.09.24-05.49.14:662][693]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/TopDownExampleMapEDC0556343185582FDEA84AF0EC7BBD5.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2020.09.24-05.49.14:704][693]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.320
+[2020.09.24-05.49.14:944][693]LogSavePackage: Moving 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Saved/TopDownExampleMap_BuiltData6F1697244B516DD1B199FFAFD33BB150.tmp' to 'E:/_Occult_/EAE4500_Occult/Project/Occult_Prototype/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2020.09.24-05.49.14:960][693]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.24-05.49.14:960][693]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2020.09.24-05.49.14:960][693]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2020.09.24-05.50.00:387][985]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-05.50.00:729][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-05.50.00:729][985]PIE: New page: PIE session: TopDownExampleMap (Sep 23, 2020, 5:50:00 PM)
+[2020.09.24-05.50.00:729][985]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.09.24-05.50.00:745][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015627s)
+[2020.09.24-05.50.00:746][985]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.09.24-05.50.00:746][985]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013C24F7AA00), frame # 26985
+[2020.09.24-05.50.00:746][985]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013C1A190680), frame # 26985
+[2020.09.24-05.50.00:746][985]LogPlayLevel: PIE: World Init took: (0.001389s)
+[2020.09.24-05.50.00:746][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.017149s)
+[2020.09.24-05.50.00:765][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.09.24-05.50.00:767][985]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.24-05.50.00:767][985]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.24-05.50.00:767][985]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.24-05.50.00:767][985]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.24-05.50.00:767][985]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.24-05.50.00:767][985]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.24-05.50.00:767][985]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.24-05.50.00:767][985]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.24-05.50.00:767][985]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.24-05.50.00:767][985]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.24-05.50.00:771][985]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.24-05.50.00:771][985]LogAudioMixer: Display: 1: FrontRight
+[2020.09.24-05.50.00:786][985]LogAudioMixer: Display: Using Audio Device XB271HU (NVIDIA High Definition Audio)
+[2020.09.24-05.50.00:786][985]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.24-05.50.00:786][985]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.24-05.50.00:786][985]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.24-05.50.00:786][985]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.24-05.50.00:802][985]LogInit: FAudioDevice initialized.
+[2020.09.24-05.50.00:814][985]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.09.24-05.50.00:818][985]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2020.09.23-23.50.00
+[2020.09.24-05.50.00:819][985]LogWorld: Bringing up level for play took: 0.004346
+[2020.09.24-05.50.00:819][985]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.09.24-05.50.00:822][985]PIE: Server logged in
+[2020.09.24-05.50.00:823][985]PIE: Play in editor total start time 0.095 seconds.
+[2020.09.24-05.50.01:440][ 22]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 99
+[2020.09.24-05.50.02:440][ 82]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 98
+[2020.09.24-05.50.03:440][142]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 97
+[2020.09.24-05.50.04:440][202]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 96
+[2020.09.24-05.50.05:440][262]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 95
+[2020.09.24-05.50.06:440][322]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.50.07:440][382]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 93
+[2020.09.24-05.50.08:439][442]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 92
+[2020.09.24-05.50.09:440][502]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 91
+[2020.09.24-05.50.10:440][562]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 90
+[2020.09.24-05.50.12:056][659]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 99
+[2020.09.24-05.50.12:057][659]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 91
+[2020.09.24-05.50.13:057][719]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 92
+[2020.09.24-05.50.13:057][719]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 98
+[2020.09.24-05.50.14:057][779]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 93
+[2020.09.24-05.50.14:057][779]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 97
+[2020.09.24-05.50.15:057][839]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 96
+[2020.09.24-05.50.15:057][839]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.50.16:056][899]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 95
+[2020.09.24-05.50.16:056][899]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 95
+[2020.09.24-05.50.17:057][959]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 96
+[2020.09.24-05.50.17:057][959]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.50.18:057][ 19]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 93
+[2020.09.24-05.50.18:057][ 19]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 97
+[2020.09.24-05.50.19:057][ 79]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 98
+[2020.09.24-05.50.19:057][ 79]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 92
+[2020.09.24-05.50.20:056][139]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 99
+[2020.09.24-05.50.20:056][139]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 91
+[2020.09.24-05.50.21:490][225]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 98
+[2020.09.24-05.50.22:491][285]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 97
+[2020.09.24-05.50.23:490][345]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 96
+[2020.09.24-05.50.24:490][405]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 95
+[2020.09.24-05.50.25:490][465]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.50.26:490][525]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 93
+[2020.09.24-05.50.27:490][585]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 92
+[2020.09.24-05.50.28:491][645]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 91
+[2020.09.24-05.50.29:491][705]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 90
+[2020.09.24-05.50.30:491][765]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 89
+[2020.09.24-05.50.31:491][825]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 88
+[2020.09.24-05.50.32:491][885]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 87
+[2020.09.24-05.50.33:491][945]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 86
+[2020.09.24-05.50.34:491][  5]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 85
+[2020.09.24-05.50.36:474][124]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 90
+[2020.09.24-05.50.36:474][124]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 86
+[2020.09.24-05.50.37:474][184]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 87
+[2020.09.24-05.50.37:474][184]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 89
+[2020.09.24-05.50.38:475][244]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 88
+[2020.09.24-05.50.38:475][244]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 88
+[2020.09.24-05.50.39:474][304]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 89
+[2020.09.24-05.50.39:474][304]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 87
+[2020.09.24-05.50.41:274][412]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 88
+[2020.09.24-05.50.42:274][472]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 87
+[2020.09.24-05.50.43:274][532]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 86
+[2020.09.24-05.50.44:274][592]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 85
+[2020.09.24-05.50.45:774][682]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 86
+[2020.09.24-05.50.45:774][682]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 86
+[2020.09.24-05.50.46:774][742]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 87
+[2020.09.24-05.50.46:774][742]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 85
+[2020.09.24-05.50.47:808][804]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 86
+[2020.09.24-05.50.48:808][864]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 85
+[2020.09.24-05.50.49:808][924]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 84
+[2020.09.24-05.50.50:808][984]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 83
+[2020.09.24-05.50.51:808][ 44]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 82
+[2020.09.24-05.50.52:807][104]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 81
+[2020.09.24-05.50.53:808][164]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 80
+[2020.09.24-05.50.55:358][257]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 81
+[2020.09.24-05.50.55:358][257]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 84
+[2020.09.24-05.50.56:358][317]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 82
+[2020.09.24-05.50.56:358][317]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 83
+[2020.09.24-05.50.58:382][438]LogCharacterMovement: AIEnemy3 is stuck and failed to move! Velocity: X=-24.85 Y=385.51 Z=0.00 Location: X=-3093.92 Y=-3522.22 Z=265.59 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:9.782 Actor:DarkWall_Blueprint3 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2020.09.24-05.50.58:415][440]LogCharacterMovement: AIEnemy4 is stuck and failed to move! Velocity: X=6.62 Y=33.49 Z=0.00 Location: X=-3178.06 Y=-3517.21 Z=265.58 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:14.790 Actor:DarkWall_Blueprint3 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2020.09.24-05.50.59:381][498]LogCharacterMovement: AIEnemy3 is stuck and failed to move! Velocity: X=-56.52 Y=597.33 Z=0.00 Location: X=-3093.92 Y=-3522.22 Z=265.59 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:9.782 Actor:DarkWall_Blueprint3 Component:StaticMeshComponent0 BoneName:None (56 other events since notify)
+[2020.09.24-05.50.59:382][498]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 81
+[2020.09.24-05.50.59:416][500]LogCharacterMovement: AIEnemy4 is stuck and failed to move! Velocity: X=59.69 Y=597.02 Z=0.00 Location: X=-3178.06 Y=-3517.21 Z=265.58 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:14.790 Actor:DarkWall_Blueprint3 Component:StaticMeshComponent0 BoneName:None (59 other events since notify)
+[2020.09.24-05.51.00:382][558]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 80
+[2020.09.24-05.51.00:399][559]LogCharacterMovement: AIEnemy3 is stuck and failed to move! Velocity: X=149.78 Y=581.00 Z=0.00 Location: X=-3091.27 Y=-3522.87 Z=265.59 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:9.135 Actor:DarkWall_Blueprint3 Component:StaticMeshComponent0 BoneName:None (58 other events since notify)
+[2020.09.24-05.51.00:782][582]LogCharacterMovement: AIEnemy4 is stuck and failed to move! Velocity: X=16.73 Y=29.75 Z=0.00 Location: X=-3178.06 Y=-3517.21 Z=265.58 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:14.790 Actor:DarkWall_Blueprint3 Component:StaticMeshComponent0 BoneName:None (35 other events since notify)
+[2020.09.24-05.51.01:383][618]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 79
+[2020.09.24-05.51.01:415][620]LogCharacterMovement: AIEnemy3 is stuck and failed to move! Velocity: X=360.29 Y=479.78 Z=0.00 Location: X=-3087.45 Y=-3524.87 Z=265.59 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:7.125 Actor:DarkWall_Blueprint3 Component:StaticMeshComponent0 BoneName:None (60 other events since notify)
+[2020.09.24-05.51.01:815][644]LogCharacterMovement: AIEnemy4 is stuck and failed to move! Velocity: X=26.21 Y=21.87 Z=0.00 Location: X=-3178.06 Y=-3519.35 Z=265.58 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:12.647 Actor:DarkWall_Blueprint3 Component:StaticMeshComponent0 BoneName:None (36 other events since notify)
+[2020.09.24-05.51.02:382][678]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 78
+[2020.09.24-05.51.03:383][738]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 77
+[2020.09.24-05.51.04:382][798]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 76
+[2020.09.24-05.51.05:388][857]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 75
+[2020.09.24-05.51.06:387][917]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 74
+[2020.09.24-05.51.07:388][977]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 73
+[2020.09.24-05.51.08:387][ 37]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 72
+[2020.09.24-05.51.09:387][ 97]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 71
+[2020.09.24-05.51.10:387][157]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 70
+[2020.09.24-05.51.11:388][217]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 69
+[2020.09.24-05.51.12:388][277]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 68
+[2020.09.24-05.51.13:921][369]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 82
+[2020.09.24-05.51.13:921][369]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 69
+[2020.09.24-05.51.14:921][429]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 81
+[2020.09.24-05.51.14:921][429]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 70
+[2020.09.24-05.51.15:921][489]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 71
+[2020.09.24-05.51.15:921][489]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 80
+[2020.09.24-05.51.16:921][549]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 79
+[2020.09.24-05.51.16:921][549]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 72
+[2020.09.24-05.51.17:921][609]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 78
+[2020.09.24-05.51.17:921][609]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 73
+[2020.09.24-05.51.18:921][669]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 74
+[2020.09.24-05.51.18:921][669]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 77
+[2020.09.24-05.51.19:921][729]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 76
+[2020.09.24-05.51.19:921][729]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 75
+[2020.09.24-05.51.20:921][789]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 75
+[2020.09.24-05.51.20:921][789]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 76
+[2020.09.24-05.51.21:921][849]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 77
+[2020.09.24-05.51.21:921][849]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 74
+[2020.09.24-05.51.22:920][909]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 73
+[2020.09.24-05.51.22:920][909]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 78
+[2020.09.24-05.51.23:921][969]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 72
+[2020.09.24-05.51.23:921][969]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 79
+[2020.09.24-05.51.25:638][ 72]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 78
+[2020.09.24-05.51.27:021][155]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 71
+[2020.09.24-05.51.27:021][155]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 79
+[2020.09.24-05.51.28:022][215]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 70
+[2020.09.24-05.51.28:022][215]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 80
+[2020.09.24-05.51.29:021][275]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 69
+[2020.09.24-05.51.29:021][275]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 81
+[2020.09.24-05.51.30:021][335]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 82
+[2020.09.24-05.51.30:021][335]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 68
+[2020.09.24-05.51.31:021][395]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 67
+[2020.09.24-05.51.31:021][395]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 83
+[2020.09.24-05.51.32:221][467]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 82
+[2020.09.24-05.51.33:221][527]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 81
+[2020.09.24-05.51.34:221][587]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 80
+[2020.09.24-05.51.35:404][658]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 81
+[2020.09.24-05.51.35:404][658]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 66
+[2020.09.24-05.51.36:405][718]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 65
+[2020.09.24-05.51.36:405][718]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 82
+[2020.09.24-05.51.37:405][778]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 64
+[2020.09.24-05.51.37:405][778]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 83
+[2020.09.24-05.51.38:405][838]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 63
+[2020.09.24-05.51.38:405][838]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 84
+[2020.09.24-05.51.39:405][898]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 62
+[2020.09.24-05.51.39:405][898]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 85
+[2020.09.24-05.51.40:404][958]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 61
+[2020.09.24-05.51.40:404][958]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 86
+[2020.09.24-05.51.41:405][ 18]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 60
+[2020.09.24-05.51.41:405][ 18]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 87
+[2020.09.24-05.51.42:405][ 78]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 59
+[2020.09.24-05.51.42:405][ 78]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 88
+[2020.09.24-05.51.43:405][138]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 58
+[2020.09.24-05.51.43:405][138]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 89
+[2020.09.24-05.51.44:405][198]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 57
+[2020.09.24-05.51.44:405][198]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 90
+[2020.09.24-05.51.45:405][258]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 56
+[2020.09.24-05.51.45:405][258]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 91
+[2020.09.24-05.51.47:388][377]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 90
+[2020.09.24-05.51.49:139][482]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 91
+[2020.09.24-05.51.49:139][482]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 55
+[2020.09.24-05.51.50:138][542]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 92
+[2020.09.24-05.51.50:139][542]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 54
+[2020.09.24-05.51.51:139][602]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 53
+[2020.09.24-05.51.51:139][602]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 93
+[2020.09.24-05.51.52:138][662]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.51.52:138][662]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 52
+[2020.09.24-05.51.53:139][722]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 95
+[2020.09.24-05.51.53:139][722]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 51
+[2020.09.24-05.51.54:139][782]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 50
+[2020.09.24-05.51.54:139][782]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 96
+[2020.09.24-05.51.55:138][842]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 97
+[2020.09.24-05.51.55:139][842]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 49
+[2020.09.24-05.51.56:139][902]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 98
+[2020.09.24-05.51.56:139][902]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 48
+[2020.09.24-05.51.57:138][962]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 47
+[2020.09.24-05.51.57:138][962]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 99
+[2020.09.24-05.51.58:138][ 22]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 100
+[2020.09.24-05.51.58:139][ 22]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 46
+[2020.09.24-05.51.59:146][ 82]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 45
+[2020.09.24-05.52.00:146][142]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 44
+[2020.09.24-05.52.01:146][202]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 43
+[2020.09.24-05.52.02:146][262]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 42
+[2020.09.24-05.52.03:146][322]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 41
+[2020.09.24-05.52.04:146][382]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 40
+[2020.09.24-05.52.05:146][442]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 39
+[2020.09.24-05.52.06:146][502]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 38
+[2020.09.24-05.52.07:146][562]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 37
+[2020.09.24-05.52.08:146][622]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 36
+[2020.09.24-05.52.09:146][682]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 35
+[2020.09.24-05.52.10:147][742]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 34
+[2020.09.24-05.52.11:146][802]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 33
+[2020.09.24-05.52.12:146][862]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 32
+[2020.09.24-05.52.13:146][922]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 31
+[2020.09.24-05.52.14:146][982]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 30
+[2020.09.24-05.52.15:146][ 42]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 29
+[2020.09.24-05.52.16:146][102]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 28
+[2020.09.24-05.52.17:146][162]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 27
+[2020.09.24-05.52.18:147][222]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 26
+[2020.09.24-05.52.19:146][282]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 25
+[2020.09.24-05.52.20:147][342]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 24
+[2020.09.24-05.52.21:146][402]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 23
+[2020.09.24-05.52.22:146][462]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 22
+[2020.09.24-05.52.23:146][522]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 21
+[2020.09.24-05.52.24:147][582]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 20
+[2020.09.24-05.52.25:147][642]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 19
+[2020.09.24-05.52.26:147][702]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 18
+[2020.09.24-05.52.27:146][762]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 17
+[2020.09.24-05.52.28:146][822]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 16
+[2020.09.24-05.52.29:147][882]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 15
+[2020.09.24-05.52.30:147][942]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 14
+[2020.09.24-05.52.31:147][  2]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 13
+[2020.09.24-05.52.32:146][ 62]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 12
+[2020.09.24-05.52.33:146][122]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 11
+[2020.09.24-05.52.34:747][218]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 99
+[2020.09.24-05.52.35:747][278]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 98
+[2020.09.24-05.52.36:746][338]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 97
+[2020.09.24-05.52.37:747][398]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 96
+[2020.09.24-05.52.38:747][458]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 95
+[2020.09.24-05.52.39:747][518]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 94
+[2020.09.24-05.52.40:747][578]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 93
+[2020.09.24-05.52.41:747][638]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 92
+[2020.09.24-05.52.42:746][698]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 91
+[2020.09.24-05.52.43:747][758]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 90
+[2020.09.24-05.52.44:747][818]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 89
+[2020.09.24-05.52.45:747][878]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 88
+[2020.09.24-05.52.46:747][938]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 87
+[2020.09.24-05.52.47:747][998]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 86
+[2020.09.24-05.52.48:747][ 58]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 85
+[2020.09.24-05.52.49:748][118]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 84
+[2020.09.24-05.52.50:748][178]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 83
+[2020.09.24-05.52.51:748][238]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 82
+[2020.09.24-05.52.52:747][298]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 81
+[2020.09.24-05.52.53:748][358]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 80
+[2020.09.24-05.52.54:747][418]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 79
+[2020.09.24-05.52.55:748][478]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 78
+[2020.09.24-05.52.57:464][581]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 79
+[2020.09.24-05.52.57:464][581]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 10
+[2020.09.24-05.52.58:897][667]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 78
+[2020.09.24-05.52.59:897][727]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 77
+[2020.09.24-05.53.00:903][787]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 76
+[2020.09.24-05.53.01:903][847]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 75
+[2020.09.24-05.53.02:903][907]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 74
+[2020.09.24-05.53.03:903][967]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 73
+[2020.09.24-05.53.04:903][ 27]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 72
+[2020.09.24-05.53.05:904][ 87]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 71
+[2020.09.24-05.53.06:903][147]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 70
+[2020.09.24-05.53.07:903][207]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 69
+[2020.09.24-05.53.08:903][267]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 68
+[2020.09.24-05.53.09:905][327]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 67
+[2020.09.24-05.53.10:903][387]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 66
+[2020.09.24-05.53.11:904][447]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 65
+[2020.09.24-05.53.12:903][507]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 64
+[2020.09.24-05.53.13:903][567]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 63
+[2020.09.24-05.53.14:903][627]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 62
+[2020.09.24-05.53.15:903][687]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 61
+[2020.09.24-05.53.16:904][747]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 60
+[2020.09.24-05.53.17:904][807]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 59
+[2020.09.24-05.53.18:904][867]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 58
+[2020.09.24-05.53.19:904][927]LogBlueprintUserMessages: [TopDownCharacter_Nick_2] 57
+[2020.09.24-05.53.20:396][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.24-05.53.20:396][955]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2020.09.24-05.53.20:396][955]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-05.53.20:396][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.24-05.53.20:403][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.24-05.53.20:406][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.24-05.53.20:442][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.24-05.53.20:443][955]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013C1A190680), frame # 38955
+[2020.09.24-05.53.20:443][955]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013C24F7AA00), frame # 38955
+[2020.09.24-05.53.20:445][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.09.24-05.53.20:478][956]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.09.24-05.53.28:414][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.09.24-05.53.31:894][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.09.24-05.53.32:082][637]LogSlate: Window 'Occult_Prototype - Unreal Editor' being destroyed
+[2020.09.24-05.53.32:258][638]Cmd: QUIT_EDITOR
+[2020.09.24-05.53.32:258][638]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.09.24-05.53.32:282][638]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.09.24-05.53.32:960][638]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.09.24-05.53.32:970][638]LogExit: Preparing to exit.
+[2020.09.24-05.53.33:888][638]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-05.53.33:890][638]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-05.53.33:891][638]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-05.53.33:915][638]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.09.24-05.53.33:922][638]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.09.24-05.53.33:922][638]LogExit: Editor shut down
+[2020.09.24-05.53.33:922][638]LogExit: Transaction tracking system shut down
+[2020.09.24-05.53.34:151][638]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000013B95751B80), frame # 39638
+[2020.09.24-05.53.34:151][638]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013B9569EAC0), frame # 39638
+[2020.09.24-05.53.34:151][638]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013B956F9E00), frame # 39638
+[2020.09.24-05.53.34:160][638]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013B8F425400), frame # 39638
+[2020.09.24-05.53.34:160][638]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013B8F42FB00), frame # 39638
+[2020.09.24-05.53.34:218][638]LogExit: Object subsystem successfully closed.
+[2020.09.24-05.53.34:247][638]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (798)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module Voice (796)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module BlueprintGraph (794)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (780)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2020.09.24-05.53.34:286][638]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2020.09.24-05.53.34:287][638]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2020.09.24-05.53.36:101][638]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2020.09.24-05.53.36:134][638]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2020.09.24-05.53.36:134][638]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2020.09.24-05.53.36:134][638]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2020.09.24-05.53.36:134][638]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2020.09.24-05.53.36:134][638]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2020.09.24-05.53.36:134][638]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2020.09.24-05.53.36:134][638]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2020.09.24-05.53.36:134][638]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2020.09.24-05.53.36:134][638]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2020.09.24-05.53.36:134][638]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2020.09.24-05.53.36:134][638]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2020.09.24-05.53.36:139][638]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2020.09.24-05.53.36:139][638]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2020.09.24-05.53.36:139][638]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2020.09.24-05.53.36:139][638]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2020.09.24-05.53.36:139][638]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2020.09.24-05.53.36:139][638]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2020.09.24-05.53.36:139][638]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2020.09.24-05.53.36:140][638]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2020.09.24-05.53.36:368][638]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2020.09.24-05.53.36:368][638]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2020.09.24-05.53.36:368][638]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2020.09.24-05.53.36:368][638]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2020.09.24-05.53.36:368][638]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2020.09.24-05.53.36:368][638]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2020.09.24-05.53.36:369][638]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2020.09.24-05.53.36:373][638]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.09.24-05.53.36:374][638]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.09.24-05.53.36:475][638]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.09.24-05.53.36:576][638]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.09.24-05.53.36:576][638]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.09.24-05.53.36:576][638]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.09.24-05.53.36:577][638]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.09.24-05.53.36:577][638]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.09.24-05.53.36:577][638]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.09.24-05.53.36:577][638]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.09.24-05.53.36:577][638]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.09.24-05.53.36:577][638]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.09.24-05.53.36:577][638]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.09.24-05.53.36:577][638]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.09.24-05.53.36:577][638]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.09.24-05.53.36:577][638]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.09.24-05.53.36:578][638]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.09.24-05.53.36:579][638]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.09.24-05.53.36:580][638]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.09.24-05.53.36:581][638]LogXGEController: Cleaning working directory: C:/Users/brand/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.09.24-05.53.36:581][638]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.09.24-05.53.36:582][638]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.09.24-05.53.36:583][638]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.09.24-05.53.36:583][638]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.09.24-05.53.36:583][638]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.09.24-05.53.36:583][638]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.09.24-05.53.36:583][638]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.09.24-05.53.36:583][638]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.09.24-05.53.36:583][638]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.09.24-05.53.36:583][638]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.09.24-05.53.36:583][638]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.09.24-05.53.36:583][638]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.09.24-05.53.36:586][638]LogHMD: Freeing OpenVRDLLHandle.
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.09.24-05.53.36:586][638]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.09.24-05.53.36:587][638]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.09.24-05.53.36:587][638]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.09.24-05.53.36:617][638]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.09.24-05.53.36:617][638]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.09.24-05.53.36:617][638]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B40E305F9-49A5-B1EF-F80F-EBAE6ACEC263%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=76aba011457389b37189da820018cc59%7C56c091ddd5aa4539b6a7da6e6cdd1502%7C1ab03860-c205-4a3a-8b15-55239fef55d8&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.09.24-05.53.36:641][638]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.09.24-05.53.36:642][638]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.09.24-05.53.36:644][638]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.09.24-05.53.36:644][638]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.09.24-05.53.36:644][638]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.09.24-05.53.36:644][638]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.09.24-05.53.36:644][638]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.09.24-05.53.36:644][638]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.09.24-05.53.36:645][638]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.09.24-05.53.36:646][638]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.09.24-05.53.36:646][638]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.09.24-05.53.36:649][638]LogD3D11RHI: Shutdown
+[2020.09.24-05.53.36:649][638]LogD3D11RHI: CleanupD3DDevice
+[2020.09.24-05.53.36:666][638]LogExit: Exiting.
+[2020.09.24-05.53.36:688][638]Log file closed, 09/23/20 23:53:36
